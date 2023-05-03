@@ -1,0 +1,40 @@
+#comment-section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+  }
+  .comment:first-child {
+    background-color: #050000;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  
+  /* CSS for each comment */
+  .comment {
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px red;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* CSS for delete and edit buttons */
+  .comment .delete-button, .comment .edit-button {
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  p {
+border: 1px black;
+
+  }
