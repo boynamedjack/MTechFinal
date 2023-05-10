@@ -1,40 +1,78 @@
+.comment:first-child {
+  background-color: #faf7f7;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
 #comment-section {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-top: 1px solid #ddd;
-  }
-  .comment:first-child {
-    background-color: #050000;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
-  
-  /* CSS for each comment */
-  .comment {
-    margin: 20px;
-    padding: 20px;
-    background-color: black;
-    border-radius: 10px;
-    border: 1px red;
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* CSS for delete and edit buttons */
-  .comment .delete-button, .comment .edit-button {
-    float: right;
-    margin-left: 10px;
-    cursor: pointer;
-  }
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
 
-  p {
-border: 1px black;
+.comment {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
 
-  }
+.comment .delete-button, .comment .edit-button {
+  float: right;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+}
+
+
+#original-post {
+  position: fixed;
+  top: 0;
+}
+.header{
+  position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+}
+#comments-container {
+  margin-top: 50px;
+}
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.comment-edit {
+  border: 1px solid rgb(169, 169, 174);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.edit-display-name {
+  display: block;
+  margin-bottom: 5px;
+}
+.edit-text {
+  display: block;
+  margin-bottom: 5px;
+  height: 50px;
+}
+.save-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+ 
+}
